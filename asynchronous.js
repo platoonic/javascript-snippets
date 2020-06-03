@@ -21,7 +21,7 @@ function asyncUsingCB(callback, error){
 //asyncUsingCB((data) => {
 //	console.log(data);
 //}, (error) => {
-//	console.log("Error: "+error);
+//	console.log("Error: " + error);
 //});
 
 /* Promises (ES6) */
@@ -43,7 +43,7 @@ function asyncUsingPromises(){
 //asyncUsingPromises().then((data) => {
 //	console.log(data);
 //}).catch((error) => {
-//	console.log("Error: "+error);
+//	console.log("Error: " + error);
 //});
 
 /* async functions (ES7) */
@@ -65,14 +65,18 @@ async function asyncUsingAsyncAwait(){
 
 /* Usage */
 //(async function(){
-//	const data = await asyncUsingAsyncAwait();
+//	try{
+//		const data = await asyncUsingAsyncAwait();
+//	}catch(error){
+//		console.log("Error: " + error);
+//	}
 //	console.log(data);
 //})();
 // OR
 //asyncUsingAsyncAwait().then((data) => {
 //	console.log(data);
 //}).catch((error) => {
-//	console.log("Error: "+error);
+//	console.log("Error: " + error);
 //});
 
 
