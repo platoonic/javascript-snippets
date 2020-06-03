@@ -61,9 +61,14 @@ async function asyncUsingAsyncAwait(){
 	});
 
 	return await task;
-} 
+}
 
 /* Usage */
+//(async function(){
+//	const data = await asyncUsingAsyncAwait();
+//	console.log(data);
+//})();
+// OR
 //asyncUsingAsyncAwait().then((data) => {
 //	console.log(data);
 //}).catch((error) => {
